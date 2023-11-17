@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Tarea {
+public class Tarea {
     String nombre;
     List<Tarea> subtareas;
 
@@ -14,8 +14,8 @@ class Tarea {
     }
 
     // Método para agregar subtareas
-    public void agregarSubtareas(Tarea proyecto, List<Tarea> subtareas) {
-        proyecto.setSubtareas(subtareas);
+    public void agregarSubtarea(Tarea subtarea) {
+        subtareas.add(subtarea);
     }
 
     public String getNombre() {
@@ -32,12 +32,5 @@ class Tarea {
 
     public void setSubtareas(List<Tarea> subtareas) {
         this.subtareas = subtareas;
-    }
-
-    @Override
-    public String toString() {
-        return "Nombre='" + nombre + '\'' +
-                ", Subdirectorios=" + subtareas;
-
     }
 }

@@ -8,6 +8,10 @@ public class ExploradorDirectorios {
         System.out.println(directorio.getNombre());
         directorio.getArchivos().forEach(System.out::println);
 
+        for (String archivo : directorio.getArchivos()) {
+            System.out.println(archivo);
+        }
+
         for (Directorio subdirectorio : directorio.getSubdirectorios()){
             explorarDirectorio(subdirectorio);
         }
