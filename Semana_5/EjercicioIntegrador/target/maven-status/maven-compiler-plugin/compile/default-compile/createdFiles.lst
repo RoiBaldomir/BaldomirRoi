@@ -1,0 +1,16 @@
+com\bootcamp\ejerciciointegrador\persistencia\EquipoJpaController.class
+com\bootcamp\ejerciciointegrador\logica\Equipo.class
+com\bootcamp\ejerciciointegrador\logica\Controladora.class
+com\bootcamp\ejerciciointegrador\logica\List.class
+com\bootcamp\ejerciciointegrador\JakartaRestConfiguration.class
+com\bootcamp\ejerciciointegrador\persistencia\exceptions\PreexistingEntityException.class
+com\bootcamp\ejerciciointegrador\servlets\EquipoSV.class
+com\bootcamp\ejerciciointegrador\persistencia\ControladoraPersistencia.class
+com\bootcamp\ejerciciointegrador\logica\Partido_.class
+com\bootcamp\ejerciciointegrador\logica\Partido.class
+com\bootcamp\ejerciciointegrador\servlets\PartidoSV.class
+com\bootcamp\ejerciciointegrador\persistencia\exceptions\IllegalOrphanException.class
+com\bootcamp\ejerciciointegrador\persistencia\exceptions\NonexistentEntityException.class
+com\bootcamp\ejerciciointegrador\logica\Equipo_.class
+com\bootcamp\ejerciciointegrador\persistencia\PartidoJpaController.class
+com\bootcamp\ejerciciointegrador\resources\JakartaEE8Resource.class
